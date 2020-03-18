@@ -2,10 +2,13 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
-	<title>Bikcraft - Contato</title>
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<title>Bikcraft - Sobre</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/grid.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/produtos.css">
+
 </head>
 <body>
 	<!-- Início do cabeçalho -->
@@ -17,7 +20,7 @@
 			<nav class="grid-12 header_menu">
 				<ul>
 					<li><a href="sobre.html">Sobre</a></li>
-					<li><a href="produtos.html">Produtos</a></li>
+					<li><a href="produtos.html" class="menu_ativo">Produtos</a></li>
 					<li><a href="portfolio.html">Portfólio</a></li>
 					<li><a href="contato.html">Contato</a></li>
 				</ul>
@@ -25,8 +28,165 @@
 		</div>
 	</header>
 	<!-- Fim do cabeçalho -->
-	<section class="container">
-		<h2 class="introducao subtitulo">Produtos</h2>
+	<!-- Inicio da introdução -->
+	<section class="introducao-interna interna_sobre">
+		<div class="container">
+			<h1>Produtos</h1>
+			<p>
+				Conheça todos os nossos produtos
+			</p>
+		</div>		
 	</section>
+	<!-- Fim da introdução -->
+	<!-- inicio  da section de passeio -->
+	<section class="container produto_item">
+		<div class="grid-11">
+			<img src="img/produtos/bikcraft-passeio-1.jpg" alt="Bikcraft passeio">
+			<h2>Passeio</h2>
+		</div>
+		<div class="grid-5 produto_icone">
+			<img src="img/produtos/passeio.png">
+		</div>
+		<div class="grid-8">
+			<img src="img/produtos/bikcraft-passeio-2.jpg" alt="bikcraft passeio ">
+		</div>
+		<div class="grid-8 produto_info">
+			<p>No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formula da gestão inovadora da qual fazemos parte inovadora da qual fazemos parte.</p>
+			<ul>
+				<li>Conforto</li>
+				<li>Velocidade</li>
+				<li>Design</li>
+				<li>Versatilidade</li>
+			</ul>
+		</div>
+	</section>
+
+<!--Fim do passeio-->
+<!--Inicio da section de esporte-->
+
+	<section class="container produto_item">
+		<div class="grid-11">
+			<img src="img/produtos/bikcraft-esporte-1.jpg" alt="Bikcraft esporte">
+			<h2>Esporte</h2>
+		</div>
+		<div class="grid-5 produto_icone">
+			<img src="img/produtos/esporte.png">
+		</div>
+		<div class="grid-8">
+			<img src="img/produtos/bikcraft-esporte-2.jpg" alt="bikcraft esporte ">
+		</div>
+		<div class="grid-8 produto_info">
+			<p>No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formula da gestão inovadora da qual fazemos parte inovadora da qual fazemos parte.</p>
+			<ul>
+				<li>Conforto</li>
+				<li>Velocidade</li>
+				<li>Design</li>
+				<li>Versatilidade</li>
+			</ul>
+		</div>
+	</section>
+<!--Fim da section esporte-->
+<!--Inicio da section retrô-->
+	<section class="container produto_item">
+		<div class="grid-11">
+			<img src="img/produtos/bikcraft-retro-1.jpg" alt="Bikcraft retro">
+			<h2>Retrô</h2>
+		</div>
+		<div class="grid-5 produto_icone">
+			<img src="img/produtos/retro.png">
+		</div>
+		<div class="grid-8">
+			<img src="img/produtos/bikcraft-retro-2.jpg" alt="bikcraft retro ">
+		</div>
+		<div class="grid-8 produto_info">
+			<p>No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formula da gestão inovadora da qual fazemos parte inovadora da qual fazemos parte.</p>
+			<ul>
+				<li>Conforto</li>
+				<li>Velocidade</li>
+				<li>Design</li>
+				<li>Versatilidade</li>
+			</ul>
+		</div>
+	</section>
+	<!--Fim da section retrô-->
+	<!--Inicio da section orçamento-->
+	<section class="orcamento">
+		<div class="container">
+			<h2 class="subtitulo">Orçamento</h2>
+			<form id="form_orcamento" class="grid-8 form">
+				<label for="nome">Nome</label>
+				<input type="text" name="nome" id="nome">
+				<label for="email">Email</label>
+				<input type="text" name="email" id="email">
+				<label for="telefone">Telefone</label>
+				<input type="text" name="telefone" id="telefone">
+				<label for="espec">Especificações</label>
+				<textarea id="espec">Cores, Estilo, Medidas, Acessórios e Outros</textarea>
+				<button type="submite" class="btn">Enviar</button>
+			</form>
+			<div class="orcamento_dados grid-8">
+				<h3>Dados</h3>
+				<span>+55 85 9181214026</span>
+				<span class="dados_email">vnd.vander@gmail.com</span>
+				<h3>Monte sua bike</h3>
+				<p>Escolha as espicificações</p>
+				<ul>
+					<li>- Cores</li>
+					<li>- Estilo</li>
+					<li>- Medidas</li>
+					<li>- Acessórios</li>
+					<li>- E outros</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!--Fim da section orçamento-->
+	<!-- Inicio da quebra -->
+	<section class="quebra">
+		<blockquote class="quote-externo container">
+			<p>"não tenha nada em sua casa que você não considere 	útil ou acredita ser bonito"</p>
+			<cite>William Morris</cite>
+		</blockquote>
+	</section>
+	<!-- Fim da quebra -->
+	<!-- Inicio do Footer -->
+	<footer>
+		<div class="footer">
+			<div class="container">
+			<!-- Footer preto informações -->
+				<div class="grid-8 footer_historia">
+					<h3>Nossa história</h3>
+					<p>O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.</p>
+				</div>
+
+				<div class="grid-4 footer_contato">
+					<h3>Contato</h3>
+					<ul>
+						<li>- 85 981214026</li>
+						<li>- vnd.vander@gmail.com</li>
+						<li>- Fortaleza - CE</li>
+					</ul>
+				</div>
+				<div class="grid-4 footer_sociais">
+					<h3>Rede sociais</h3>
+					<ul>
+						<li><a href="https://www.facebook.com/vander.wander" target="_blank"><img src="img/redes-sociais/facebook.png"></a></li>
+						<li><a href="https://www.instagram.com/vander_1/" target="_blank"><img src="img/redes-sociais/instagram.png"></a></li>
+						<li><a href="https://twitter.com/vvander_" target="_blank"><img src="img/redes-sociais/twitter.png"></a></li>
+					</ul>
+				</div>
+			<!-- fim das informações do footer preto -->
+			</div>
+		</div>
+		<!-- Copywriting-->
+		<div class="copy">
+			<div class="container">
+				<p class="grid-16">Bikcraft 2020 - Alguns direitos reservados. Somente alguns ;)</p>	
+			</div>	
+		</div>
+	</footer>
+	<!-- Fim do footer e do documento -->
+
 </body>
 </html>

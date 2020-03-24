@@ -1,4 +1,4 @@
-.interna_sobre {
+.interna_produto {
 	background: url("../img/bg-produtos.jpg") no-repeat center;
 	background-size: cover;
 }
@@ -155,7 +155,7 @@
 	line-height: 30px;
 }
 
-.dados_email{
+.orcamento_dados span:nth-of-type(even){
 	margin-bottom: 40px;
 }	
 

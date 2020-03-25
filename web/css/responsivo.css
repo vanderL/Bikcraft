@@ -1,0 +1,168 @@
+/*Estilo para tablet*/
+@media only screen and (min-width: 768px) and (max-width: 959px){
+
+/* qualidade index */
+
+.qualidade:after{
+	right: 66px;
+}
+
+.qualidade_lista li {
+	padding: 0  10px;
+}
+
+
+/* footer */
+
+.footer_sociais ul li a {
+	border: 3px solid #fec63e;
+	display: block;
+	padding: 6px;
+}
+
+.footer_sociais ul li a img{
+	width: 26px;
+	height: 26px;
+
+}
+/*Produtos*/
+.produto_item h2{
+	top: -150px;
+	margin-bottom: -50px;
+}
+
+.produto_icone {
+	padding: 41px 0;
+}
+
+.produto_info p{
+	color: #fff;
+	padding: 20px 30px;
+	font-size: 14px;
+	line-height: 20px;
+	height: 122px;
+}
+
+.produto_info ul li{
+	width: 179px;
+	height: 49px;
+}
+
+}/*Colchete final para tablet*/
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 767px) {
+
+
+/*header*/
+.header {
+	position: relative;
+	padding-bottom: 0px;
+}
+
+.header img{
+	margin: 0 auto 20px auto;
+}
+
+.header_menu {
+	text-align: center;
+}
+
+.header_menu ul li {
+	margin: 5px;
+}
+
+.header_menu ul li a {
+	border: 4px solid #000;
+	width: 136px;
+	display: block;
+	float: left;
+}
+
+.header_menu ul li a:hover {
+	border-color: #fff;
+}
+.header_menu ul li a.menu_ativo {
+	border-color: #fff;
+}
+/*index Introdução*/
+
+.introducao {
+	margin-top: 0px;
+	padding-top: 40px;
+	background: url("../img/bg-mobile.jpg");
+	background-size: cover;
+}
+.introducao h1 {
+	font-size: 36px;
+}
+
+/*Introdução interna*/
+.introducao-interna {
+	margin-top: 0px;
+}
+
+/*call to action */
+
+.call-to-action {
+	padding-top: 10px;
+
+}
+/* Qualidade Index*/
+
+.qualidade:after{
+	display: none;
+}
+
+/*Misão Sobre*/
+.missao_sobre p {
+	font-size: 14px;
+	line-height: 20px;
+	padding-right: 0px;
+}
+.missao_sobre ul li {
+	font-size: 14px;
+	line-height: 25px;
+}
+
+/* Produtos */
+.produto_item h2{
+	top: -100px;
+	margin-bottom: -68px;
+}
+
+.produto_icone {
+	padding: 41px 0;
+}
+
+.produto_info p{
+	padding: 20px 30px;
+	font-size: 14px;
+	line-height: 20px;
+	height: auto;
+}
+
+.produto_info ul li{
+	width: 148px;
+	height: 49px;
+	font-size: 14px;
+	line-height: 20px;
+	padding-top: 14px;
+}
+/*Orçamento*/
+
+.form {
+	padding-right: 0px;
+}
+
+.orcamento_dados ul {
+	padding-right: 0px;
+}
+/*Contato*/
+
+.contato_form {
+	padding-right: 0px;
+	margin-bottom: 40px;
+}
+
+}/*Colchete final*/
